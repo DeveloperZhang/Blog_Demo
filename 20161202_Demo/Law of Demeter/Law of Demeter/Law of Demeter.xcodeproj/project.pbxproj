@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E722A5341DF12698003DD6C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5331DF12698003DD6C3 /* main.m */; };
+		E722A5371DF12698003DD6C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5361DF12698003DD6C3 /* AppDelegate.m */; };
+		E722A53A1DF12698003DD6C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5391DF12698003DD6C3 /* ViewController.m */; };
+		E722A53D1DF12698003DD6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E722A53B1DF12698003DD6C3 /* Main.storyboard */; };
+		E722A53F1DF12698003DD6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E722A53E1DF12698003DD6C3 /* Assets.xcassets */; };
+		E722A5421DF12698003DD6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E722A5401DF12698003DD6C3 /* LaunchScreen.storyboard */; };
+		E722A54D1DF12698003DD6C3 /* Law_of_DemeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A54C1DF12698003DD6C3 /* Law_of_DemeterTests.m */; };
+		E722A5601DF126FA003DD6C3 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A55F1DF126FA003DD6C3 /* Employee.m */; };
+		E722A5631DF1271B003DD6C3 /* SubEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5621DF1271B003DD6C3 /* SubEmployee.m */; };
+		E722A5661DF1274A003DD6C3 /* SubCompanyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5651DF1274A003DD6C3 /* SubCompanyManager.m */; };
+		E722A5691DF14021003DD6C3 /* CompanyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A5681DF14021003DD6C3 /* CompanyManager.m */; };
+		E722A56D1DF14205003DD6C3 /* SubCompanyManagerV2.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A56C1DF14205003DD6C3 /* SubCompanyManagerV2.m */; };
+		E722A5701DF1420E003DD6C3 /* CompanyManagerV2.m in Sources */ = {isa = PBXBuildFile; fileRef = E722A56F1DF1420E003DD6C3 /* CompanyManagerV2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E722A5491DF12698003DD6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E722A5271DF12698003DD6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E722A52E1DF12698003DD6C3;
+			remoteInfo = "Law of Demeter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E722A52F1DF12698003DD6C3 /* Law of Demeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Law of Demeter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722A5331DF12698003DD6C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E722A5351DF12698003DD6C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E722A5361DF12698003DD6C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E722A5381DF12698003DD6C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E722A5391DF12698003DD6C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E722A53C1DF12698003DD6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E722A53E1DF12698003DD6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E722A5411DF12698003DD6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E722A5431DF12698003DD6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E722A5481DF12698003DD6C3 /* Law of DemeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law of DemeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722A54C1DF12698003DD6C3 /* Law_of_DemeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Law_of_DemeterTests.m; sourceTree = "<group>"; };
+		E722A54E1DF12698003DD6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E722A55E1DF126FA003DD6C3 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		E722A55F1DF126FA003DD6C3 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		E722A5611DF1271B003DD6C3 /* SubEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubEmployee.h; sourceTree = "<group>"; };
+		E722A5621DF1271B003DD6C3 /* SubEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubEmployee.m; sourceTree = "<group>"; };
+		E722A5641DF1274A003DD6C3 /* SubCompanyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCompanyManager.h; sourceTree = "<group>"; };
+		E722A5651DF1274A003DD6C3 /* SubCompanyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCompanyManager.m; sourceTree = "<group>"; };
+		E722A5671DF14020003DD6C3 /* CompanyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyManager.h; sourceTree = "<group>"; };
+		E722A5681DF14021003DD6C3 /* CompanyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyManager.m; sourceTree = "<group>"; };
+		E722A56B1DF14205003DD6C3 /* SubCompanyManagerV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCompanyManagerV2.h; sourceTree = "<group>"; };
+		E722A56C1DF14205003DD6C3 /* SubCompanyManagerV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCompanyManagerV2.m; sourceTree = "<group>"; };
+		E722A56E1DF1420E003DD6C3 /* CompanyManagerV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyManagerV2.h; sourceTree = "<group>"; };
+		E722A56F1DF1420E003DD6C3 /* CompanyManagerV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyManagerV2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E722A52C1DF12698003DD6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E722A5451DF12698003DD6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E722A5261DF12698003DD6C3 = {
+			isa = PBXGroup;
+			children = (
+				E722A5311DF12698003DD6C3 /* Law of Demeter */,
+				E722A54B1DF12698003DD6C3 /* Law of DemeterTests */,
+				E722A5301DF12698003DD6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E722A5301DF12698003DD6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E722A52F1DF12698003DD6C3 /* Law of Demeter.app */,
+				E722A5481DF12698003DD6C3 /* Law of DemeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E722A5311DF12698003DD6C3 /* Law of Demeter */ = {
+			isa = PBXGroup;
+			children = (
+				E722A56A1DF141F0003DD6C3 /* Demo2 */,
+				E722A55D1DF126FA003DD6C3 /* Demo */,
+				E722A5351DF12698003DD6C3 /* AppDelegate.h */,
+				E722A5361DF12698003DD6C3 /* AppDelegate.m */,
+				E722A5381DF12698003DD6C3 /* ViewController.h */,
+				E722A5391DF12698003DD6C3 /* ViewController.m */,
+				E722A53B1DF12698003DD6C3 /* Main.storyboard */,
+				E722A53E1DF12698003DD6C3 /* Assets.xcassets */,
+				E722A5401DF12698003DD6C3 /* LaunchScreen.storyboard */,
+				E722A5431DF12698003DD6C3 /* Info.plist */,
+				E722A5321DF12698003DD6C3 /* Supporting Files */,
+			);
+			path = "Law of Demeter";
+			sourceTree = "<group>";
+		};
+		E722A5321DF12698003DD6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E722A5331DF12698003DD6C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E722A54B1DF12698003DD6C3 /* Law of DemeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E722A54C1DF12698003DD6C3 /* Law_of_DemeterTests.m */,
+				E722A54E1DF12698003DD6C3 /* Info.plist */,
+			);
+			path = "Law of DemeterTests";
+			sourceTree = "<group>";
+		};
+		E722A55D1DF126FA003DD6C3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E722A55E1DF126FA003DD6C3 /* Employee.h */,
+				E722A55F1DF126FA003DD6C3 /* Employee.m */,
+				E722A5611DF1271B003DD6C3 /* SubEmployee.h */,
+				E722A5621DF1271B003DD6C3 /* SubEmployee.m */,
+				E722A5641DF1274A003DD6C3 /* SubCompanyManager.h */,
+				E722A5651DF1274A003DD6C3 /* SubCompanyManager.m */,
+				E722A5671DF14020003DD6C3 /* CompanyManager.h */,
+				E722A5681DF14021003DD6C3 /* CompanyManager.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E722A56A1DF141F0003DD6C3 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				E722A56B1DF14205003DD6C3 /* SubCompanyManagerV2.h */,
+				E722A56C1DF14205003DD6C3 /* SubCompanyManagerV2.m */,
+				E722A56E1DF1420E003DD6C3 /* CompanyManagerV2.h */,
+				E722A56F1DF1420E003DD6C3 /* CompanyManagerV2.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E722A52E1DF12698003DD6C3 /* Law of Demeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E722A5511DF12698003DD6C3 /* Build configuration list for PBXNativeTarget "Law of Demeter" */;
+			buildPhases = (
+				E722A52B1DF12698003DD6C3 /* Sources */,
+				E722A52C1DF12698003DD6C3 /* Frameworks */,
+				E722A52D1DF12698003DD6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Law of Demeter";
+			productName = "Law of Demeter";
+			productReference = E722A52F1DF12698003DD6C3 /* Law of Demeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E722A5471DF12698003DD6C3 /* Law of DemeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E722A5541DF12698003DD6C3 /* Build configuration list for PBXNativeTarget "Law of DemeterTests" */;
+			buildPhases = (
+				E722A5441DF12698003DD6C3 /* Sources */,
+				E722A5451DF12698003DD6C3 /* Frameworks */,
+				E722A5461DF12698003DD6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E722A54A1DF12698003DD6C3 /* PBXTargetDependency */,
+			);
+			name = "Law of DemeterTests";
+			productName = "Law of DemeterTests";
+			productReference = E722A5481DF12698003DD6C3 /* Law of DemeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E722A5271DF12698003DD6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = DeveloperZhang;
+				TargetAttributes = {
+					E722A52E1DF12698003DD6C3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E722A5471DF12698003DD6C3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E722A52E1DF12698003DD6C3;
+					};
+				};
+			};
+			buildConfigurationList = E722A52A1DF12698003DD6C3 /* Build configuration list for PBXProject "Law of Demeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E722A5261DF12698003DD6C3;
+			productRefGroup = E722A5301DF12698003DD6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E722A52E1DF12698003DD6C3 /* Law of Demeter */,
+				E722A5471DF12698003DD6C3 /* Law of DemeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E722A52D1DF12698003DD6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722A5421DF12698003DD6C3 /* LaunchScreen.storyboard in Resources */,
+				E722A53F1DF12698003DD6C3 /* Assets.xcassets in Resources */,
+				E722A53D1DF12698003DD6C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E722A5461DF12698003DD6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E722A52B1DF12698003DD6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722A53A1DF12698003DD6C3 /* ViewController.m in Sources */,
+				E722A5601DF126FA003DD6C3 /* Employee.m in Sources */,
+				E722A5701DF1420E003DD6C3 /* CompanyManagerV2.m in Sources */,
+				E722A5371DF12698003DD6C3 /* AppDelegate.m in Sources */,
+				E722A5691DF14021003DD6C3 /* CompanyManager.m in Sources */,
+				E722A56D1DF14205003DD6C3 /* SubCompanyManagerV2.m in Sources */,
+				E722A5631DF1271B003DD6C3 /* SubEmployee.m in Sources */,
+				E722A5661DF1274A003DD6C3 /* SubCompanyManager.m in Sources */,
+				E722A5341DF12698003DD6C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E722A5441DF12698003DD6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722A54D1DF12698003DD6C3 /* Law_of_DemeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E722A54A1DF12698003DD6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E722A52E1DF12698003DD6C3 /* Law of Demeter */;
+			targetProxy = E722A5491DF12698003DD6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E722A53B1DF12698003DD6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E722A53C1DF12698003DD6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E722A5401DF12698003DD6C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E722A5411DF12698003DD6C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E722A54F1DF12698003DD6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E722A5501DF12698003DD6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E722A5521DF12698003DD6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Law of Demeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VicentZ.Law-of-Demeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E722A5531DF12698003DD6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Law of Demeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VicentZ.Law-of-Demeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E722A5551DF12698003DD6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Law of DemeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VicentZ.Law-of-DemeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Law of Demeter.app/Law of Demeter";
+			};
+			name = Debug;
+		};
+		E722A5561DF12698003DD6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Law of DemeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VicentZ.Law-of-DemeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Law of Demeter.app/Law of Demeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E722A52A1DF12698003DD6C3 /* Build configuration list for PBXProject "Law of Demeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722A54F1DF12698003DD6C3 /* Debug */,
+				E722A5501DF12698003DD6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E722A5511DF12698003DD6C3 /* Build configuration list for PBXNativeTarget "Law of Demeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722A5521DF12698003DD6C3 /* Debug */,
+				E722A5531DF12698003DD6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E722A5541DF12698003DD6C3 /* Build configuration list for PBXNativeTarget "Law of DemeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722A5551DF12698003DD6C3 /* Debug */,
+				E722A5561DF12698003DD6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E722A5271DF12698003DD6C3 /* Project object */;
+}
